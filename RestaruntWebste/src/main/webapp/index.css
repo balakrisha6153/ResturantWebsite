@@ -1,0 +1,589 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+*{
+    padding:0px;
+    margin:0px;
+    text-decoration:none;
+}
+body{
+ overflow-x:hidden;
+}
+.first-logo{
+  color:yellow;
+  margin:40px;
+}
+nav{
+    background-color:transparent;
+}
+nav label{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:30px;
+    font-weight:bold;
+    line-height:80px;
+    color:yellow;
+    margin-left:20px;
+}
+nav ul{
+   float:right;
+   margin-right:50px;
+}
+nav ul li{
+    display:inline-block;
+    line-height:80px;
+    margin:0 10px;
+    text-transform:uppercase;
+}
+nav ul li a{
+    color:white;
+    font-size:17px;
+}
+.active:hover{
+    text-decoration:underline;
+    color:yellow;
+}
+.bg-container{
+    background-image:url("background.jpg");
+    height:100vh;
+    width:100vw;
+    background-size:cover;
+}
+.button{
+    height:30px;
+    width:120px;
+    background-color:yellow;
+    border-width:0px;
+    color:black;
+    font-weight:500;
+    font-size:14px;
+}
+.button:hover{
+    transform:scale(1.1);
+    transition: all 0.75s ease;
+}
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction:column;
+    height:100vh;
+  }
+  .heading{
+    color:white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bold;
+    font-size:45px;
+    margin-left:30px;
+
+  }
+  .para{
+    color:white;
+    font-size:20px;
+    font-family:"Roboto";
+    margin-left:30px;
+    max-width:550px;
+    margin-top:10px;
+  }
+  .button{
+    background-color:yellow;
+    border-width:0px;
+    width:150px;
+    height:40px;
+    margin-left:30px;
+    margin-top:20px;
+    font-weight:600;
+    color:black;
+    font-size:15px;
+    border-radius:5px;
+  }
+  .about-container{
+    background-color:white;
+    height:110vh;
+    display:flex;
+    flex-direction:column;
+  }
+  .fa-user-group{
+    color:black;
+    font-size:30px;
+  }
+  .c-heading{
+    font-size:20px;
+    font-weight:bold;
+    color:black;
+    font-family:"Roboto";
+    margin-top:10px;
+  }
+  .c-para{
+    color:black;
+    font-size:15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top:15px;
+  }
+  .master-chef{
+        width: 200px;
+        height: 200px;
+        background-color: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        padding:20px;
+        border-radius:5px;
+        margin-top:40px;
+        margin-left:50px;
+  }
+  .master-chef:hover{
+    transform:scale(1.1);
+    transition: all 0.75s ease;
+    background-color:rgb(255, 174, 0);
+  }
+  .chef-containers{
+    display:flex;
+  }
+  .fa-utensils{
+    font-size:30px;
+  }
+  .fa-cart-plus{
+    font-size:30px;
+  }
+  .fa-headset{
+    font-size:30px;
+  }
+.img-container1{
+    display:flex;
+    max-width:300px;
+    margin-top:20px;
+    margin-left:44px;
+}
+.img-container2{
+    display:flex;
+    max-width:300px;
+    margin-top:20px;
+    margin-left:44px;
+}
+.image1{
+    height:200px;
+    width:250px;
+    margin:15px;
+}
+.image2{
+    height:170px;
+    width:200px;
+    margin-top:30px;
+    margin-left:20px;
+}
+.abt-image-container{
+    display:flex;
+}
+.abt-desc-container{
+  margin-top:30px;
+  margin-left:300px;
+}
+.abt-heading1{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:rgb(255, 157, 0);
+  font-size:35px;
+  font-weight:bold;
+}
+.abt-heading2{
+font-family:"Roboto";
+font-weight:bold;
+font-size:30px;
+margin-top:10px;
+margin-bottom:10px;
+}
+.logo-images{
+  color:orange;
+  margin-right:10px;
+}
+.abt-para{
+  font-size:20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.vertical-line {
+  width: 4px;
+  height: 50px;
+  background-color: orange;
+  margin-top:10px;
+}
+.small-con{
+  display:flex;
+  margin-top:10px;
+  margin-right:25px;
+}
+.small-para{
+  margin-top:10px;
+  margin-left:15px;
+}
+.small-span{
+  color:rgb(255, 145, 0);
+  font-size:30px;
+  margin-right:5px;
+  font-weight:bold;
+}
+.small-span1{
+  font-size:20px;
+  color:black;
+  font-weight:bold;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.small-abt-container{
+  display:flex;
+  align-items:center;
+}
+.small-btn{
+  margin-top:15px;
+  background-color:orange;
+  border-width:0px;
+  height:40px;
+  width:120px;
+  border-radius:5px;
+  font-size:15px;
+  font-weight:600;
+}
+.small-btn:hover{
+  transform:scale(1.1);
+  transition: all 0.75s ease;
+}
+.food-menu-container{
+  background-color:white;
+  min-height: 110vh; 
+  max-height:110vh;
+  height: auto;
+  margin-top:20px;
+}
+.sub-menu-container{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  margin-top:60px;
+  margin-bottom:20px;
+}
+.menu-heading{
+  font-size:30px;
+  font-weight:bold;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom:20px;
+}
+.menu-heading:hover{
+  transform:scale(1.1);
+  transition: all 0.75s ease;
+}
+.sub-items-container{
+  display:flex;
+}
+.small-sub-menu-container{
+  display:flex;
+  margin-right:20px;
+}
+.menu-logo{
+  font-size:30px;
+  color:orange;
+  margin-right:10px;
+}
+.menu-span{
+  font-weight:bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.small-sub-menu-container:hover{
+  transform:scale(1.1);
+  transition: all 0.75s ease;
+  position: relative;
+}
+.small-image-items {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+}
+
+.biriyani-image {
+  height: 70px;
+  width: 120px;
+  margin-right: 10px;
+}
+
+.each-image-container {
+  display: flex;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+  margin: 10px; 
+  width: 500px; 
+  align-items: center; 
+}
+
+.price-container {
+  margin-top: 10px;
+  margin-left:20px;
+  font-family: "Roboto";
+  font-weight: 800;
+  color: orange;
+}
+
+.biriyani-heading {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.biriyani-para {
+  font-family: "Roboto";
+  font-size: 15px;
+  margin-top: 10px;
+  text-align: center; 
+}
+.book-container{
+  background-color:white;
+  min-height:100vh;
+  max-height:100vh;
+  margin-left:30px;
+}
+.book-heading{
+  text-align:center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:black;
+  font-weight:bold;
+
+  font-size:30px;
+}
+.book-heading:hover{
+  transform:scale(1.1);
+  transition: all 0.75s ease;
+}
+.table-container{
+  display:flex;
+
+}
+.book-image{
+  height:90vh;
+  width:50vw;
+  margin-top:50px;
+}
+.input-container{
+  margin-top:50px;
+  margin-left:10px;
+  background-color:#201E42;
+  width:50%;
+}
+.input-heading{
+  margin:10px; 
+  color:white;
+  font-size:25px;
+  font-weight:bold;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.each-input-container{
+  display:flex;
+  flex-direction:column;
+  margin-left:20px;
+}
+.each-form{
+  height:40px;
+  width:270px;
+}
+.each-form-name{
+  color:white;
+ margin-top:15px;
+ margin-bottom:10px;
+ font-size:20px;
+ font-style:oblique;
+ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.table-flex-container{
+  display:flex;
+}
+.input-button{
+font-weight:bold;
+margin-top:30px;
+background-color:yellow;
+border-width:0px;
+width:150px;
+height:40px;
+margin-left:250px;
+}
+.input-button:hover{
+  transform:scale(1.1);
+  transition: all 0.75s ease;
+}
+.members-container{
+  background-color:white;
+  min-height:100vh;
+  max-height:100vh;
+  margin-top:30px;
+}
+.members-heading{
+  text-align:center;
+}
+.members-para{
+  font-size:30px;
+  font-family: 'Brush Script MT', 'Lucida Calligraphy', 'Segoe Script', cursive;
+  color:orange;
+  font-weight:bold;
+}
+.mem-top-heading{
+  font-family: 'Monoton', cursive;
+}
+.master-mem-container{
+  width: 280px;
+  height:320px;
+  background-color:white;
+  box-shadow: 0 0 30px rgba(156, 93, 251, 0.3);
+  padding:20px;
+  border-radius:5px;
+  margin-top:100px;
+  margin-left:50px;
+  margin-right:10px;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  align-items:center;
+}
+.all-imag-container{
+  display:flex;
+}
+.my-chef-img1{
+  height:180px;
+  width:180px;
+  margin-top:20px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom:10px;
+}
+.master-mem-container:hover {
+  background-color:orange;
+  border: 2px solid blue;
+}
+.master-mem-container i {
+  color: white;
+  left: -100%;
+  transition: 0.5s;
+ opacity: 0;
+ margin:10px;
+ font-size:20px;
+}
+.master-mem-container:hover i{
+  color:white;
+  transform: scale(1.2);
+ opacity: 1;
+  
+}
+.master-mem-container i:hover{
+  color:black;
+  font-size:30px;
+}
+.review-contianer{
+  min-height:100vh;
+  max-height:100vh;
+  margin-top:20px;
+}
+.r-content-container{
+  text-align:center;
+}
+.each-review-container{
+  width: 280px;
+  height:400px;
+  background-color:white;
+  box-shadow: 0 0 30px rgba(156, 93, 251, 0.3);
+  padding:20px;
+  border-radius:5px;
+  margin-top:100px;
+  margin-left:50px;
+  margin-right:10px;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  align-items:center;
+}
+.all-review-containers{
+  display:flex;
+}
+.review-icons-container{
+  display:flex;
+  margin-top:10px;
+  color:orange;
+}
+.review-heading{
+  margin-top:10px;
+  font-family:'Monoton', cursive;
+}
+.review-para{
+  text-align:center;
+  font-family:'Brush Script MT', 'Lucida Calligraphy', 'Segoe Script', cursive;
+  font-size:20px;
+}
+.review-image{
+  height:120px;
+  width:120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top:10px;
+}
+.each-review-container:hover{
+  transform:scale(1.1);
+  transition: all 0.75s ease;
+  border:2px solid blue;
+}
+.last-section{
+  background-color:#0b0b1c;
+  min-height:40vh;
+  display:flex;
+  justify-content:space-around;
+}
+.review-para{
+  font-family:'Brush Script MT', 'Lucida Calligraphy', 'Segoe Script', cursive;
+  font-size:22px;
+  color:orange;
+  margin-top:15px;
+}
+.review-data{
+  color:white;
+  font-size:15px;
+  font-family:"Roboto";
+  margin-top:15px;  
+  margin-left:60px;
+}
+.final-content{
+  display:flex;
+  flex-direction:column;
+}
+.contact-data{
+  display:flex;
+  margin-left:75px;
+  margin-top:15px; 
+}
+.contact-icon{
+  color:white;
+  font-size:20px;
+  margin-left:60px;
+  margin-right:10px;
+
+}
+.icon-contact-data{
+  display:flex;
+  margin-left:120px;
+  margin-top:15px; 
+}
+.contact1-data{
+  color:white;
+  font-size:15px;
+  font-family:"Roboto";
+}
+.final-contact-icon{
+  background-color: transparent;
+  width: 15px;
+  color:white;
+  height: 15px;
+  border-width:1px;
+  border-style:solid;
+  border-color:white;
+  border-radius: 40px;
+  margin: 5px;
+  padding-top: 15px;
+  padding-bottom: 14px;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+.contact2-data{
+  color:white;
+  font-size:15px;
+  font-family:"Roboto";
+  margin-top:20px;
+  margin-left:60px;
+}

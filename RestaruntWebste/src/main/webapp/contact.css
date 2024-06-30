@@ -1,0 +1,50 @@
+@charset "ISO-8859-1";
+
+:root{
+    --maincolor:blue;
+    --secondcolor:#f8a803;
+    --thirdcolor:#f4ab01;
+    --textcolor:#000000;
+}
+
+body {
+    background-image: url("10236511.png");
+    
+    background-size: cover;
+    margin-top: 10%;
+}
+
+.contact{
+    width: 300px;
+    background-color: #fff;
+    padding: 22px;
+    border-radius: 4px;
+    text-align: center;
+    margin: auto;
+}
+.contact input{
+    width: 90%;
+    font-size: 15px;
+    padding: 9px;
+    margin-top: 22px;
+    border: none;
+    outline: none;
+    color: var(--textcolor);
+    background-color: skyblue;
+    border-radius: 2px;
+}
+.contact button{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(66, 69, 226);
+    color: white;
+    font-size: 17px;
+    border: none;
+    margin-top: 22px;
+}
+.contact button:hover{
+    background-color: var(--secondcolor);
+}
+.contact h1{
+    color: rgb(115, 76, 255);
+}
